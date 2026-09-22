@@ -1,0 +1,6 @@
+interface:
+  display_name: "会话交接守护"
+  short_description: "识别长对话混乱风险，准备精简交接，并在用户确认后切换主控窗口"
+  default_prompt: "请使用 $session-handoff-guard 检查是否需要换窗，必要时准备交接记录与接管提示词；未经我明确确认不要创建新窗口或派发任务。"
+policy:
+  allow_implicit_invocation: true
